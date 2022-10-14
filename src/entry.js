@@ -11,14 +11,14 @@ import * as reactDom from 'react-dom/client'
 //
 // Also note we're using / to refer to the base directory (/src in this case).
 // This is just how absolute paths on the web works natively.
-import { Root } from '/root.js'
+import { App } from '/App.jsx'
 
 export const init = () => {
   reactDom
     .createRoot(document.getElementById('root'))
     .render(
       <react.StrictMode>
-        <Root />
+        <App />
       </react.StrictMode>
     )
 }
