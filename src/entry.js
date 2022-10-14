@@ -11,7 +11,7 @@ import * as reactDom from 'react-dom/client'
 //
 // Also note we're using / to refer to the base directory (/src in this case).
 // This is just how absolute paths on the web works natively.
-import { App } from '/App.jsx'
+import  App  from '/App.jsx'
 
 export const init = () => {
   reactDom
