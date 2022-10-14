@@ -6,7 +6,7 @@
 // react and react-dom are installed by default, so we can just import them.
 import * as react from 'react'
 import * as reactDom from 'react-dom/client'
-import './index.css'
+import '/index.css'
 
 // We import with .js extension here, but Reflame supports .js and extensionless 
 // import specifiers through import maps.
