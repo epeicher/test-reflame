@@ -6,19 +6,21 @@
 // react and react-dom are installed by default, so we can just import them.
 import * as react from 'react'
 import * as reactDom from 'react-dom/client'
+import '/index.css'
+
 // We import with .js extension here, but Reflame supports .js and extensionless 
 // import specifiers through import maps.
 //
 // Also note we're using / to refer to the base directory (/src in this case).
 // This is just how absolute paths on the web works natively.
-import { Root } from '/root.js'
+import  App  from '/App.jsx'
 
 export const init = () => {
   reactDom
     .createRoot(document.getElementById('root'))
     .render(
       <react.StrictMode>
-        <Root />
+        <App />
       </react.StrictMode>
     )
 }
